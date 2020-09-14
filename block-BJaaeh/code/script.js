@@ -10,7 +10,7 @@ function currentTime() {
     document.querySelector(".clock").innerText = hour + " : " + min + " : " + sec;
     document.querySelector(".clock2").innerText = hour + " : " + min + " : " + sec;
     // setting timer 
-      let timer = setTimeout(function(){ currentTime() }, 1000); 
+    setTimeout(function(){ currentTime() }, 1000); 
   }
   
   function updateTime(format) {
